@@ -1,7 +1,7 @@
 zlib for XCode
 ==========
 
-This repository depends on https://github.com/leico/zlib depends on https://github.com/madler/zlib
+This repository depends https://github.com/madler/zlib
 
 usage
 -----

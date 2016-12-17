@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:z-1.2.8.xcodeproj">
+      location = "self:/Users/leico/pro/z-1.2.8/z.xcodeproj">
    </FileRef>
 </Workspace>

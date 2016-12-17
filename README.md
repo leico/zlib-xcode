@@ -17,9 +17,5 @@ usage
     ```
     git submodule update --init --recursive
     ```
-1. zlib configure, automodify zconf.h
 
-    ```
-    cd zlib
-    ./configure
-    ```
+1. build zlib

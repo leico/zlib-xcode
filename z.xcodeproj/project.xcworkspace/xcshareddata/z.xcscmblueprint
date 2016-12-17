@@ -5,12 +5,14 @@
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "31263E6D757B55053CAC01A14B717D6CB5CC0300" : 9223372036854775807,
-    "8601E67F4FB64BCEBC94AD8912DA48EAE2F25B48" : 9223372036854775807
+    "8601E67F4FB64BCEBC94AD8912DA48EAE2F25B48" : 9223372036854775807,
+    "8C340C33C6D4C828D7EB6178408D5E4A923742E6" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BAA1C454-CF5E-48DB-8A1B-855C71BEEFB0",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "31263E6D757B55053CAC01A14B717D6CB5CC0300" : "libz-xcode\/",
-    "8601E67F4FB64BCEBC94AD8912DA48EAE2F25B48" : "libz-xcode\/zlib\/"
+    "31263E6D757B55053CAC01A14B717D6CB5CC0300" : "zlib\/",
+    "8601E67F4FB64BCEBC94AD8912DA48EAE2F25B48" : "zlib\/zlib\/",
+    "8C340C33C6D4C828D7EB6178408D5E4A923742E6" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "z",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -25,6 +27,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/leico\/zlib.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8601E67F4FB64BCEBC94AD8912DA48EAE2F25B48"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/leico\/openssl-xcode.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8C340C33C6D4C828D7EB6178408D5E4A923742E6"
     }
   ]
 }

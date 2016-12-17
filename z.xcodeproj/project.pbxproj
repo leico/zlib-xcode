@@ -161,6 +161,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AD0F94D1E051A3000440F44 /* Build configuration list for PBXNativeTarget "z-1.2.8" */;
 			buildPhases = (
+				4A2EAE7E1E05864200149ECA /* ShellScript */,
 				4AD0F9451E051A3000440F44 /* Sources */,
 				4AD0F9461E051A3000440F44 /* Frameworks */,
 				4AD0F9471E051A3000440F44 /* Headers */,
@@ -205,6 +206,22 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A2EAE7E1E05864200149ECA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd zlib\n./configure";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4AD0F9451E051A3000440F44 /* Sources */ = {

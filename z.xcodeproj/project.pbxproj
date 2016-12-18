@@ -62,6 +62,8 @@
 		4A53B7D31E052F0C003BD492 /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
 		4A53B7D81E052F0C003BD492 /* zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zutil.c; sourceTree = "<group>"; };
 		4A53B7D91E052F0C003BD492 /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zutil.h; sourceTree = "<group>"; };
+		4ABF62AD1E06BF430011E210 /* zconf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = zconf.h; path = usr/local/include/zconf.h; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABF62AE1E06BF430011E210 /* zlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = zlib.h; path = usr/local/include/zlib.h; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD0F9491E051A3000440F44 /* libz-1.2.8.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libz-1.2.8.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -109,19 +111,30 @@
 			path = zlib;
 			sourceTree = "<group>";
 		};
-		4A53B8471E05318B003BD492 /* Sources */ = {
+		4ABF62AC1E06BF430011E210 /* include */ = {
 			isa = PBXGroup;
 			children = (
+				4ABF62AD1E06BF430011E210 /* zconf.h */,
+				4ABF62AE1E06BF430011E210 /* zlib.h */,
 			);
-			name = Sources;
+			name = include;
+			path = usr/local/include;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4ABF62AF1E06BF880011E210 /* Output Library and Headers */ = {
+			isa = PBXGroup;
+			children = (
+				4AD0F94A1E051A3000440F44 /* Products */,
+				4ABF62AC1E06BF430011E210 /* include */,
+			);
+			name = "Output Library and Headers";
 			sourceTree = "<group>";
 		};
 		4AD0F9401E051A3000440F44 = {
 			isa = PBXGroup;
 			children = (
-				4A53B8471E05318B003BD492 /* Sources */,
+				4ABF62AF1E06BF880011E210 /* Output Library and Headers */,
 				4A53B6C81E052F0B003BD492 /* zlib */,
-				4AD0F94A1E051A3000440F44 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
